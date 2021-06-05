@@ -12,7 +12,7 @@ describe('Program', function() {
         result = program(invoice, plays);
       }
     
-      assert.strictEqual(result, "Statement from BigCo\n  Hamlet: $650.00 (55 seats)\n  As You Like It: $580.00 (35 seats)\n  Othello: $580.00 (48 seats)\nAmount owed is $1,810.00\nYou earned 55 credits\n");
+      assert.strictEqual(result, "Statement for BigCo\n  Hamlet: $650.00 (55 seats)\n  As You Like It: $580.00 (35 seats)\n  Othello: $580.00 (48 seats)\nAmount owed is $1,810.00\nYou earned 55 credits\n");
     });
   });
 });
